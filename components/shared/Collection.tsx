@@ -9,7 +9,7 @@ type CollectionProps = {
     collectiontype: string | 'Events_Organized' | 'All_Events' | 'My_Tickets',
     page: number | string,
     totalPages?: number,
-    urlParamName: string,
+    urlParamName?: string,
 }
 
 const Collection = ({
